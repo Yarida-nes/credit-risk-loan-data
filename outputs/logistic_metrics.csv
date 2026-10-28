@@ -1,0 +1,5 @@
+"metric","value"
+"accuracy",0.845
+"sensitivity",0.473
+"specificity",0.951
+"auc",0.854

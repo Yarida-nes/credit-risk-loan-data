@@ -1,0 +1,31 @@
+
+Call:
+glm(formula = formula(Status_fwd_step), family = binomial, data = train)
+
+Coefficients:
+                        Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           -6.329e+00  1.544e-01 -40.997  < 2e-16 ***
+loanpctincome          1.233e+01  2.739e-01  45.025  < 2e-16 ***
+intrate                3.260e-01  7.668e-03  42.514  < 2e-16 ***
+homeOTHER              7.867e-02  3.463e-01   0.227   0.8203    
+homeOWN               -1.657e+00  1.289e-01 -12.858  < 2e-16 ***
+homeRENT               7.107e-01  4.894e-02  14.521  < 2e-16 ***
+loanamt               -8.984e-05  4.616e-06 -19.463  < 2e-16 ***
+intentEDUCATION       -7.967e-01  7.112e-02 -11.202  < 2e-16 ***
+intentHOMEIMPROVEMENT  1.712e-01  7.779e-02   2.200   0.0278 *  
+intentMEDICAL         -9.904e-02  6.700e-02  -1.478   0.1393    
+intentPERSONAL        -5.716e-01  7.196e-02  -7.944 1.96e-15 ***
+intentVENTURE         -9.688e-01  7.664e-02 -12.642  < 2e-16 ***
+empLength             -1.345e-02  5.886e-03  -2.284   0.0223 *  
+age                   -7.575e-03  3.541e-03  -2.139   0.0324 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 20769  on 20001  degrees of freedom
+Residual deviance: 14212  on 19988  degrees of freedom
+AIC: 14240
+
+Number of Fisher Scoring iterations: 6
+
